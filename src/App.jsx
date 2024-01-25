@@ -1,12 +1,13 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Accordion from "./Accordion";
+// import Navbar from './Navbar'
 
 const App = () => {
   return (
     <div>
-  <Navbar />
+      <Accordion />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
